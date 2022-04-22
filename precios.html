@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title> 
+</head>
+<body>
+    
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-xl">
+          <a class="navbar-brand p-2" href="./index.html"><img class="bg-light " src="/img/logoipsum-logo-6.svg" class="img-fluid" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">OUTFIT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./precios.html">PRECIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./formulario.html">FORMULARIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienessomos.html">CONOCEMOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <div class="container">
+    <h2 class="text-center text-white">Comprá nuestros productos online</h2>
+    <p class="lead text-center text-white">
+      Con la compra de productos de forma online. Obtené descuentos increibles y sorteos diarios.
+    </p>
+  </div>
+    <div class="container my-3">
+      <div class="row">
+       <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bg-striet">
+         <h2 class="text-white">Formulario de ingreso</h2>
+         <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Talle</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="small medium large">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Dirección de envío</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <br>
+          <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-dark" type="button">GUARDAR</button>
+            <button class="btn btn-secondary" type="button">BORRAR</button>
+          </div>
+        </div>
+       </div>
+       <div class="col-sm-12  col-md-4 col-lg-4 col-xl-4 bg-white">
+         <h3>Listado de precios</h3>
+         <table class="table table-dark">
+           <thead>
+             <tr>
+               <th>ARTICULO</th>
+               <th>MODELO</th>
+               <th>PRECIO</th>
+             </tr>
+             <tr>
+              <th>Pantalon</th>
+              <th>Camuflado</th>
+              <th>$2000</th>
+            </tr>
+            <tr>
+              <th>Remera</th>
+              <th>Algondon</th>
+              <th>$2500</th>
+            </tr>
+            <tr>
+              <th>Poncho</th>
+              <th>Alpaca</th>
+              <th>$1000</th>
+            </tr>
+            <tr>
+              <th>Bufanda</th>
+              <th>Lana</th>
+              <th>$1000</th>
+            </tr>
+            <tr>
+              <th>Campera</th>
+              <th>Cuero</th>
+              <th>$10000</th>
+            </tr>
+           </thead>
+         </table>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0"> Ofertas exclusivas en su email</h3>
+        <div class="input-group ofertas-input">
+           <input 
+           type="text"
+           class="form-control"
+           placeholder="ingrese su email"
+           />
+          <button class="btn btn-dark btn-lg">Enviar</button>
+        </div>
+      </div>
+    </div>
+    <section id="opiniones" class="p-5 bg-striet">
+      <div class="container">
+       <h2 class="text-center text-white">Que dicen nuestros clientes</h2>
+       <p class="lead text-center text-white">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. In numquam quibusdam cum qui! Recusandae, commodi.
+       </p>
+       <div class="row g-4">
+         <div class="col-md-6 col-lg-3">
+           <div class="card bg-light">
+             <div class="card-body text-center">
+             <img src="https://randomuser.me/api/portraits/women/78.jpg" alt="" class="rounded-circle mb-3">
+             <h3 class="card-tittle mb-3">Julieta Perez</h3>
+             <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim?
+             </p>
+             <i class="bi bi-star-fill mx-1"></i>
+             <i class="bi bi-star-fill mx-1"></i>
+             <i class="bi bi-star-fill mx-1"></i>
+             <i class="bi bi-star-fill mx-1"></i>
+             <i class="bi bi-star-fill mx-1"></i>
+            </div>
+           </div>  
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="" class="rounded-circle mb-3">
+              <h3 class="card-tittle mb-3">Maria Belen</h3>
+              <p class="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim?
+              </p>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+             </div>
+            </div>  
+           </div>
+           <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/76.jpg" alt="" class="rounded-circle mb-3">
+              <h3 class="card-tittle mb-3">Zoe Corral</h3>
+              <p class="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim?
+              </p>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+             </div>
+            </div>  
+           </div>
+           <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="" class="rounded-circle mb-3">
+              <h3 class="card-tittle mb-3">Camila Alvarez</h3>
+              <p class="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim?
+              </p>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+             </div>
+            </div>  
+           </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid bg-dark mt-3   ">
+      <div class="row p-2">
+        <div class="col-12 p-3 d-flex justify-content-around">
+          <a class="iconos " href="#"><i class="bi bi-facebook"></i></a>
+          <a class="iconos " href="#"><i class="bi bi-instagram"></i></a>
+          <a class="iconos " href="#"><i class="bi bi-twitter"></i></a>
+        </div>
+     </div>
+  
+  
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+</html>
